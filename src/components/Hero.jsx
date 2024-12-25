@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { check, hero } from '../static/images';
+import { Link } from 'react-router-dom';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -97,12 +98,12 @@ export const Hero = () => {
                                 means you get to do more with just one application.
                             </p>
                             <div ref={buttonsRef} className="flex items-center gap-3">
-                                <button className="btn-primary font-inter font-medium w-fit text-sm">
+                                <Link to={"/page-under-construction"} className="btn-primary font-inter font-medium w-fit text-sm">
                                     Open Account
-                                </button>
-                                <a className="text-primary" href="#about">
+                                </Link>
+                                <Link to={"/customer-support"} className="text-primary" href="#about">
                                     More info about us
-                                </a>
+                                </Link>
                             </div>
                             <div ref={featuresRef} className="grid grid-cols-2 sm:grid-cols-2 gap-4">
                                 <div className="flex items-center gap-4">

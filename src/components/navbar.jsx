@@ -5,11 +5,11 @@ import { menu } from "../static/images";
 
 
 const navItems = [
-    { label: 'Product Features', href: '/features' },
-    { label: 'Product Usage', href: '/usage' },
-    { label: 'Customer Support', href: '/support' },
-    { label: 'Blog & Updates', href: '/blog' },
-    { label: 'Open Account', href: '/register', isButton: true }, // Added isButton prop
+    { label: 'Product Features', href: '/Product-features' },
+    { label: 'Product Usage', href: '/Product-Usage' },
+    { label: 'Customer Support', href: '/Customer-support' },
+    { label: 'Blog & Updates', href: '/blogs-and-updates' },
+  
   ];
 
 
@@ -79,25 +79,25 @@ const Navbar = () => {
               <ul className="list-none">
                 <li className="w-full pb-2 border-gray-400/25"></li>
                 <li className="w-full py-3 smooth hover:bg-primary hover:text-white font-inter px-3 text-xs cursor-pointer text-body_text border-gray-400/25">
-                  <Link to={""} href="/features">Product Features</Link>
+                  <Link to={"/Product-features"} href="/features">Product Features</Link>
                 </li>
                 <li className="w-full py-3 smooth hover:bg-primary hover:text-white font-inter px-3 text-xs cursor-pointer text-body_text border-gray-400/25">
-                  <Link to={""} href="/usage">Product Usage</Link>
+                  <Link to={""} href="/Product-Usage">Product Usage</Link>
                 </li>
                 <li className="w-full py-3 smooth hover:bg-primary hover:text-white font-inter px-3 text-xs cursor-pointer text-body_text border-gray-400/25">
-                  <Link to={""} href="/support">Customer Support</Link>
+                  <Link to={"/Customer-support"} href="/support">Customer Support</Link>
                 </li>
                 <li className="w-full py-3 smooth hover:bg-primary hover:text-white font-inter px-3 text-xs cursor-pointer text-body_text border-gray-400/25">
-                  <Link to={""} href="/blog">Blog & Updates</Link>
+                  <Link to={"/blogs-and-updates"} href="/blog">Blog & Updates</Link>
                 </li>
-                <li className="w-full sm:hidden py-2">
+                {/* <li className="w-full sm:hidden py-2">
                   <Link to={""} href="/register">
                     <div className="btn-primary text-sm">Open Account</div>
                   </Link>
                 </li>
                 <li className="w-full sm:hidden py-3 smooth hover:bg-primary hover:text-white font-inter px-3 text-xs cursor-pointer text-body_text border-gray-400/25">
                   <Link to={"#"} href="/login">Login</Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
