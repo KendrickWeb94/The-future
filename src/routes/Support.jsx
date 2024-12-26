@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import { Helmet } from "react-helmet";
 
 const Support = () => {
   return (
-    <div>Support</div>
-  )
-}
+    <div>
+      <Helmet>
+        <title>Our Product Features</title>
+      </Helmet>
+      Support
+    </div>
+  );
+};
 
-export default Support
+export default Support;

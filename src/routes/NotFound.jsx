@@ -1,9 +1,13 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 
 const NotFound = () => {
   return (
     <div>
+      <Helmet>
+        <title>Page Under Construction</title>
+      </Helmet>
       <section class="bg-white flex items-center justify-center h-screen">
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div class="mx-auto max-w-screen-sm text-center">
