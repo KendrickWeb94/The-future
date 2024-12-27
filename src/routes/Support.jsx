@@ -1,5 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import Navbar from "../components/navbar";
+import Footer1 from "../components/Footer";
 
 const Support = () => {
   return (
@@ -7,7 +9,8 @@ const Support = () => {
       <Helmet>
         <title>Our Product Features</title>
       </Helmet>
-      Support
+      <Navbar />
+      <Footer1 />
     </div>
   );
 };

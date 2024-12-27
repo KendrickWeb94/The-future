@@ -38,6 +38,9 @@ import hero from "../assets/temp/Hero.png";
 import gridnotifications from "../assets/temp/grid-notifications.png";
 import transactions from "../assets/temp/transactions.png";
 import siteLogo from "../assets/temp/logo.svg";
+
+import metricImg from "../assets/temp/metric1.png"
+import metricImg2 from "../assets/temp/metric2.png"
 // Export all images
 export {
   app, // Existing images
@@ -79,4 +82,6 @@ export {
   gridnotifications,
   transactions,
   siteLogo,
+  metricImg,
+  metricImg2
 };

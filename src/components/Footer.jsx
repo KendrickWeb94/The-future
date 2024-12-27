@@ -28,10 +28,10 @@ const Footer1 = () => {
                 <a href="#/blog">Blog & Updates</a>
               </li>
               <li className="text-sm text-text_normal smooth hover:pl-4 hover:text-primary">
-                <a href="#/register">Open Account</a>
+                <a href="#/register">Social Media</a>
               </li>
               <li className="text-sm text-text_normal smooth hover:pl-4 hover:text-primary">
-                <a href="#/login">Login</a>
+                <a href="#/login">Our Community</a>
               </li>
             </ul>
           </div>

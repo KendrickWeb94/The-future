@@ -1,22 +1,18 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-// Import your components for each page
 import Welcome from "./routes/welcome";
 import Usage from "./routes/Usage";
 import Features from "./routes/Features";
 import Support from "./routes/Support";
 import Blog from "./routes/Blog";
 // import Dashboard from "./routes/Dashboard";
-import NotFound from "./routes/NotFound"; // Optional 404 page
-import Navbar from "./components/navbar";
-import Footer1 from "./components/Footer";
+import NotFound from "./routes/NotFound"; 
 // import ProtectedRoute from "./components/ProtectedRoute"; // For authenticated routes
 
 const App = () => {
   return (
-   <div className="relative font-inter w-full">
-    {/* <Navbar /> */}
+   <main className="relative font-inter w-full">
      <Router>
       <Routes>
         <Route path="/" element={<Welcome />} />
@@ -35,8 +31,7 @@ const App = () => {
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
-    {/* <Footer1 /> */}
-   </div>
+   </main>
   );
 };
 

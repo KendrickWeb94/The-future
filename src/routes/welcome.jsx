@@ -5,10 +5,11 @@ import Content from "../components/Content"
 import { Hero } from '../components/Hero'
 import BackToTop from '../components/topTop'
 import Loader from '../components/loader'
+import Metric from '../components/metric'
 
 const welcome = () => {
-  return (
-    <div>
+  return ( 
+    <main className='relative'>
       <Loader />
       <div className="w-full py-2 px-4 bg-primary">
         <div className="flex items-center sm:flex-nowrap flex-wrap ds:justify-start sm:justify-center gap-3">
@@ -24,10 +25,11 @@ const welcome = () => {
       {/* <welcomeBar /> */}
       <Navbar />
       <Hero />
+      <Metric />
       <Content />
       <BackToTop />
       <Footer1 />
-    </div>
+    </main>
   )
 }
 

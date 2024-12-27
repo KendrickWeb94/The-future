@@ -159,9 +159,9 @@ const Content = () => {
                 <img src={frame5} alt="" />
                   <div className="">
                     <h1 className=" text-body_text font-semibold">
-                      Dream bike
+                    Add more
                     </h1>
-                    <p className=" text-text_light text-sm font-medium">200</p>
+                    {/* <p className=" text-text_light text-sm font-medium">200</p> */}
                   </div>
                 </div>
               </div>
