@@ -3,8 +3,44 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  font-size: 98%;
+}
+
 .smooth {
   transition: all 800ms ease-in-out;
+}
+
+.testimonials:nth-child(0) {
+  background: rgb(160 216 49 / 0.2);
+}
+
+.mobile-menu {
+  z-index: 9999;
+}
+
+input ,
+textarea{
+  outline: none;
+}
+
+.hero-2 {
+  background: url("./assets/temp/login.png");
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+/* .testimonials {
+  background: #a0d831
+} */
+
+@layer components {
+  .smooth {
+    @apply transition-all delay-500 duration-500 ease-in-out;
+  }
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
 }
 
 .btn-primary {

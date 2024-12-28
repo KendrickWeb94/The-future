@@ -47,7 +47,7 @@ const Navbar = () => {
       {navItems.map((item, index) => (
         <li
           key={index}
-          className={`py-3 smooth hover:bg-primary hover:text-white font-inter px-3 text-xs cursor-pointer text-body_text border-b border-gray-400/25 ${
+          className={`py-2 hover:px-6 smooth hover:bg-primary hover:text-white font-inter px-3 text-[0.8rem]  rounded-3xl cursor-pointer text-body_text  ${
             item.isButton ? 'sm:hidden' : '' // Conditionally hide on small screens
           }`}
         >
@@ -82,7 +82,7 @@ const Navbar = () => {
                   <Link to={"/Product-features"} href="/features">Product Features</Link>
                 </li>
                 <li className="w-full py-3 smooth hover:bg-primary hover:text-white font-inter px-3 text-xs cursor-pointer text-body_text border-gray-400/25">
-                  <Link to={""} href="/Product-Usage">Product Usage</Link>
+                  <Link to={"/product-Usage"} href="/Product-Usage">Product Usage</Link>
                 </li>
                 <li className="w-full py-3 smooth hover:bg-primary hover:text-white font-inter px-3 text-xs cursor-pointer text-body_text border-gray-400/25">
                   <Link to={"/Customer-support"} href="/support">Customer Support</Link>

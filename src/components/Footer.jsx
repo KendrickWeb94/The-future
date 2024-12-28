@@ -1,5 +1,6 @@
 import React from "react";
 import { Logo } from "./Logo";
+import { Link } from "react-router-dom";
 
 const Footer1 = () => {
   return (
@@ -16,22 +17,22 @@ const Footer1 = () => {
             <h1 className="text-body_text font-semibold">Quick Links</h1>
             <ul className="list-none flex flex-col gap-3">
               <li className="text-sm text-text_normal smooth hover:pl-4 hover:text-primary">
-                <a href="#/features">Product Features</a>
+                <Link to={"/Product-features"}>Product Features</Link>
               </li>
               <li className="text-sm text-text_normal smooth hover:pl-4 hover:text-primary">
-                <a href="#/usage">Product Usage</a>
+                <Link to={"/product-Usage"} href="#/usage">Product Usage</Link>
+              </li>
+              <Link to={"/Customer-support"} className="text-sm text-text_normal smooth hover:pl-4 hover:text-primary">
+                <li >Customer Support</li>
+              </Link>
+              <Link to={"/blogs-and-updates"} className="text-sm text-text_normal smooth hover:pl-4 hover:text-primary">
+                <li >Blog & Updates</li>
+              </Link>
+              <li className="text-sm text-text_normal smooth hover:pl-4 hover:text-primary">
+                <a href="www.facebook.com/the-future" target="_blank">Social Media</a>
               </li>
               <li className="text-sm text-text_normal smooth hover:pl-4 hover:text-primary">
-                <a href="#/support">Customer Support</a>
-              </li>
-              <li className="text-sm text-text_normal smooth hover:pl-4 hover:text-primary">
-                <a href="#/blog">Blog & Updates</a>
-              </li>
-              <li className="text-sm text-text_normal smooth hover:pl-4 hover:text-primary">
-                <a href="#/register">Social Media</a>
-              </li>
-              <li className="text-sm text-text_normal smooth hover:pl-4 hover:text-primary">
-                <a href="#/login">Our Community</a>
+                <Link to={"/Our-Community"} >Our Community</Link>
               </li>
             </ul>
           </div>
@@ -42,7 +43,10 @@ const Footer1 = () => {
                 <a href="##">Web Version (coming soon)</a>
               </li>
               <li className="text-sm text-text_normal smooth hover:pl-4 hover:text-primary">
-                <a href="##">Mobile Devices</a>
+                <a href="##">Andriod</a>
+              </li>
+              <li className="text-sm text-text_normal smooth hover:pl-4 hover:text-primary">
+                <a href="##">IOS</a>
               </li>
               <li className="text-sm text-text_normal smooth hover:pl-4 hover:text-primary">
                 <a href="##">iPads</a>
@@ -79,13 +83,13 @@ const Footer1 = () => {
             We advise you to go through these terms and policies to understand the usage agreement, privacy, and how we can help secure your account.
           </p>
           <div className="flex items-center gap-4">
-            <p className="text-body_text text-sm hover:text-black hover:underline underline-offset-4 cursor-pointer">
+            <p className="text-body_text text-sm smooth hover:text-black hover:underline underline-offset-4 cursor-pointer">
               Terms
             </p>
-            <p className="text-body_text text-sm hover:text-black hover:underline underline-offset-4 cursor-pointer">
+            <p className="text-body_text text-sm smooth hover:text-black hover:underline underline-offset-4 cursor-pointer">
               Privacy
             </p>
-            <p className="text-body_text text-sm hover:text-black hover:underline underline-offset-4 cursor-pointer">
+            <p className="text-body_text text-sm smooth hover:text-black hover:underline underline-offset-4 cursor-pointer">
               Security
             </p>
           </div>

@@ -52,7 +52,7 @@ const Content = () => {
         <section className="w-full tw-container">
           <div className="w-full py-24">
             <div className="space-y-6">
-              <h1 className="font-semibold">Tools</h1>
+              <h1 className="font-semibold text-primary">Tools</h1>
               <h2 className="text-6xl max-w-sm font-semibold">
                 Seemless
                 <br />
@@ -93,7 +93,7 @@ const Content = () => {
         <section className="w-full tw-container">
           <div className="w-full py-24 flex flex-wrap justify-between gap-14">
             <div className="space-y-6">
-              <h1 className="font-semibold">Notifications</h1>
+              <h1 className="font-semibold text-primary">Notifications</h1>
               <h2 className="text-6xl max-w-sm font-semibold">Stay notified</h2>
               <p className="font-medium md:max-w-xl text-body_text">
                 Stay notified with our ever running notification system , that
@@ -108,7 +108,7 @@ const Content = () => {
         <section className="w-full tw-container">
           <div className="w-full py-24 flex justify-between flex-col gap-14">
             <div className="space-y-6">
-              <h1 className="font-semibold">Saving Accounts</h1>
+              <h1 className="font-semibold text-primary">Saving Accounts</h1>
               <h2 className="text-4xl w-full md:max-w-4xl text-balance font-semibold">
                 Organize your money the right way
               </h2>
@@ -119,8 +119,8 @@ const Content = () => {
             </div>
             <div className="w-full">
               <div className="grid w-full grid-cols-2 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
-                <div className="space-y-4 ds:w-[160px] xs:w-[220px]">
-                  <img src={frame1} alt="" />
+                <div className="space-y-4 ds:w-[160px]  xs:w-[220px]">
+                  <img src={frame1} alt=""  className="smooth hover:-translate-y-4"/>
                   <div className="">
                     <h1 className=" text-body_text font-semibold">
                       Dream bike
@@ -128,15 +128,15 @@ const Content = () => {
                     <p className=" text-text_light text-sm font-medium">200</p>
                   </div>
                 </div>
-                <div className="space-y-4 ds:w-[160px] xs:w-[220px]">
-                <img src={frame2} alt="" />
+                <div className="space-y-4 ds:w-[160px]  xs:w-[220px]">
+                <img src={frame2} alt=""  className="smooth hover:-translate-y-4"/>
                   <div className="">
                     <h1 className=" text-body_text  font-semibold">Camera</h1>
                     <p className=" text-text_light text-sm font-medium">300$</p>
                   </div>
                 </div>
-                <div className="space-y-4 ds:w-[160px] xs:w-[220px]">
-                <img src={frame3} alt="" />
+                <div className="space-y-4 ds:w-[160px]  xs:w-[220px]">
+                <img src={frame3} alt=""  className="smooth hover:-translate-y-4"/>
                   <div className="">
                     <h1 className=" text-body_text font-semibold">Holiday</h1>
                     <p className=" text-text_light text-sm font-medium">
@@ -144,8 +144,8 @@ const Content = () => {
                     </p>
                   </div>
                 </div>
-                <div className="space-y-4 ds:w-[160px] xs:w-[220px]">
-                <img src={frame4} alt="" />
+                <div className="space-y-4 ds:w-[160px]  xs:w-[220px]">
+                <img src={frame4} alt=""  className="smooth hover:-translate-y-4"/>
                   <div className="">
                     <h1 className=" text-body_text font-semibold">
                       New Laptop
@@ -155,8 +155,8 @@ const Content = () => {
                     </p>
                   </div>
                 </div>
-                <div className="space-y-4 ds:w-[160px] xs:w-[220px]">
-                <img src={frame5} alt="" />
+                <div className="space-y-4 ds:w-[160px]  xs:w-[220px]">
+                <img src={frame5} alt=""  className="smooth hover:-translate-y-4"/>
                   <div className="">
                     <h1 className=" text-body_text font-semibold">
                     Add more
@@ -190,8 +190,8 @@ const Content = () => {
             </div>
           </div>
        
-        <div className="testimonials masonary grid ds:grid-cols-1 gap-4 xl:grid-cols-3 md:grid-cols-2">
-          <div className="testimonial-box w-full row-span-1 rounded-md border p-4 border-primary space-y-5">
+        <div className="testimonials  masonary grid ds:grid-cols-1 gap-4 xl:grid-cols-3 md:grid-cols-2">
+          <div className="testimonial-box w-full row-span-1 rounded-md border p-4 border-primary bg-primary/20 space-y-5 smooth hover:bg-primary/15">
             <div className="flex items-center gap-1">
               <img src={starfilled} width="15" alt="" />
               <img src={starfilled} width="15" alt="" />
@@ -215,7 +215,7 @@ const Content = () => {
               <p className="text-sm text-text_light">TotalEnergies Nigeria</p>
             </div>
           </div>
-          <div className="testimonial-box w-full md:row-span-2 rounded-md border p-4 border-primary space-y-5">
+          <div className="testimonial-box w-full md:row-span-2 rounded-md border p-4 border-primary space-y-5 smooth hover:bg-primary/15">
             <div className="flex items-center gap-1">
               <img src={starfilled} width="15" alt="" />
               <img src={starfilled} width="15" alt="" />
@@ -267,7 +267,7 @@ const Content = () => {
               <p className="text-sm text-text_light">Access Bank</p>
             </div>
           </div>
-          <div className="testimonial-box w-full  rounded-md border p-4 border-primary space-y-5">
+          <div className="testimonial-box w-full  rounded-md border p-4 border-primary space-y-5 smooth hover:bg-primary/15">
             <div className="flex items-center gap-1">
               <img src={starfilled} width="15" alt="" />
               <img src={starfilled} width="15" alt="" />
@@ -291,7 +291,7 @@ const Content = () => {
               <p className="text-sm text-text_light">Shell Nigeria</p>
             </div>
           </div>
-          <div className="testimonial-box w-full  rounded-md border p-4 border-primary space-y-5">
+          <div className="testimonial-box w-full  rounded-md border p-4 border-primary space-y-5 smooth hover:bg-primary/15">
             <div className="flex items-center gap-1">
               <img src={starfilled} width="15" alt="" />
               <img src={starfilled} width="15" alt="" />
@@ -315,7 +315,7 @@ const Content = () => {
               <p className="text-sm text-text_light">Nigerian Breweries</p>
             </div>
           </div>
-          <div className="testimonial-box w-full  rounded-md border p-4 border-primary space-y-5">
+          <div className="testimonial-box w-full  rounded-md border p-4 border-primary space-y-5 smooth hover:bg-primary/15">
             <div className="flex items-center gap-1">
               <img src={starfilled} width="15" alt="" />
               <img src={starfilled} width="15" alt="" />

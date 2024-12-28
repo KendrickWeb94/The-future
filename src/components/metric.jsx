@@ -14,17 +14,17 @@ const Metric = () => {
           systematically monitoring our achievements.
         </p>
         <div className="flex pt-10 gap-4 flex-wrap w-full">
-            <div className="h-[6rem] pr-24 flex flex-col gap-1 sm:w-auto ds:w-full p-3 rounded-md bg-gray-300/10 pl-5">
-                <h1 className=" text-primary font-semibold text-2xl">890+</h1>
-                <p className="text-text_normal font-medium">Dedicated Users</p>
+            <div className="h-[6rem] pr-24 flex items-start justify-center flex-col gap-1 sm:w-auto ds:w-full p-3 rounded-md bg-gray-300/10 pl-5">
+                <h1 className=" text-heading_text font-semibold text-2xl">890+</h1>
+                <p className="text-text_normal text-sm font-medium">Dedicated Users</p>
             </div>
-            <div className="h-[6rem] pr-24 flex flex-col gap-1 sm:w-auto ds:w-full p-3 rounded-md bg-gray-300/10 pl-5">
-                <h1 className=" text-primary font-semibold text-2xl">458+</h1>
-                <p className="text-text_normal font-medium">Daily Transactions</p>
+            <div className="h-[6rem] pr-24 flex items-start justify-center flex-col gap-1 sm:w-auto ds:w-full p-3 rounded-md bg-gray-300/10 pl-5">
+                <h1 className=" text-heading_text font-semibold text-2xl">458+</h1>
+                <p className="text-text_normal text-sm font-medium">Daily Transactions</p>
             </div>
-            <div className="h-[6rem] pr-24 flex flex-col gap-1 sm:w-auto ds:w-full p-3 rounded-md bg-gray-300/10 pl-5">
-                <h1 className=" text-primary font-semibold text-2xl">100%</h1>
-                <p className="text-text_normal font-medium">Assured Security</p>
+            <div className="h-[6rem] pr-24 flex items-start justify-center flex-col gap-1 sm:w-auto ds:w-full p-3 rounded-md bg-gray-300/10 pl-5">
+                <h1 className="heading_text font-semibold text-2xl">100%</h1>
+                <p className="text-text_normal text-sm font-medium">Assured Security</p>
             </div>
         </div>
       </div>

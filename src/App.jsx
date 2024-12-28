@@ -12,7 +12,7 @@ import NotFound from "./routes/NotFound";
 
 const App = () => {
   return (
-   <main className="relative font-inter w-full">
+   <main className="relative smooth font-inter w-full">
      <Router>
       <Routes>
         <Route path="/" element={<Welcome />} />

@@ -120,7 +120,7 @@ export const Hero = ({ heroImage, altText, children }) => {
               </h1>
               <p
                 ref={paragraphRef}
-                className="font-inter font-semibold text-sm text-balance leading-7 text-body_text"
+                className="font-inter font-medium text-base text-balance leading-7 text-text_normal"
               >
                 Our software is an all-in-one application that allows you to do
                 everything just in one place, isn't that wonderful? No more
