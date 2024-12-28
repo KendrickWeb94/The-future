@@ -4,6 +4,7 @@ import Navbar from "../components/navbar";
 import Footer1 from "../components/Footer";
 import { SupportMap } from "../static/images";
 import Accordion from "../components/accordion";
+import Loader from "../components/loader";
 
 const Support = () => {
   return (
@@ -12,6 +13,7 @@ const Support = () => {
         <title>Customer Support</title>
       </Helmet>
       <Navbar />
+      <Loader />
       <div className="min-h-auto py-16 overflow-hidden relative hero-2 ">
         <div className="w-full  tw-container ">
           <div className="w-full pt-6 flex lg:flex-nowrap flex-wrap justify-between gap-10">
