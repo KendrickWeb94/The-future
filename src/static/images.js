@@ -41,8 +41,13 @@ import siteLogo from "../assets/temp/logo.svg";
 import login from "../assets/temp/login.png";
 import login2 from "../assets/icons/login.png";
 import SupportMap from "../assets/temp/map.svg";
+import gasImg from "../assets/temp/gas.jpg";
+import laptop from "../assets/temp/laptop.png"
+import people from "../assets/temp/people.jpg"
 // Export all images
 export {
+  people,
+  laptop,
   app, // Existing images
   client1,
   client2,
@@ -84,5 +89,6 @@ export {
   siteLogo,
   SupportMap,
   login,
-  login2
+  login2,
+  gasImg
 };

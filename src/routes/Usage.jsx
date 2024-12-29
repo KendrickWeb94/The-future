@@ -1,5 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import Navbar from "../components/navbar";
+import Footer1 from "../components/Footer";
 
 const Usage = () => {
   return (
@@ -7,7 +9,8 @@ const Usage = () => {
       <Helmet>
         <title>Product Usage</title>
       </Helmet>
-      Usage
+      <Navbar />
+      <Footer1 />
     </div>
   );
 };
