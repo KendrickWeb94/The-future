@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-
+// Accordion component
 const Accordion = () => {
   const [activeAccordion, setActiveAccordion] = useState(null);
   const contentRefs = useRef([]);
