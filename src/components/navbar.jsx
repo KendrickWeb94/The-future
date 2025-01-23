@@ -6,7 +6,7 @@ import { menu } from "../static/images";
 
 const navItems = [
     { label: 'Product Features', href: '/Product-features' },
-    { label: 'Product Usage', href: '/Product-Usage' },
+    { label: 'Product Usage', href: '/Product-features' },
     { label: 'Customer Support', href: '/Customer-support' },
     { label: 'Blog & Updates', href: '/blogs-and-updates' },
   
