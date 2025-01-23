@@ -24,16 +24,7 @@ export default {
                 xs: "480px",
                 bs: "540px",
             },
-            fontFamily: {
-                inter: ['Inter', 'sans-serif'],
-            },
-            fontWeight: {
-                interRegular: 400,
-                interMedium: 500,
-                interSemiBold: 600,
-                interBold: 700,
-                interExtraBold: 800,
-            },
+          
         },
     },
 

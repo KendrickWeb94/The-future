@@ -42,10 +42,13 @@ import login from "../assets/temp/login.png";
 import login2 from "../assets/icons/login.png";
 import SupportMap from "../assets/temp/map.svg";
 import gasImg from "../assets/temp/gas.jpg";
-import laptop from "../assets/temp/laptop.png"
-import people from "../assets/temp/people.jpg"
+import laptop from "../assets/temp/laptop.png";
+import people from "../assets/temp/people.jpg";
+
+import grid from "../assets/temp/grid.svg";
 // Export all images
 export {
+
   people,
   laptop,
   app, // Existing images
@@ -90,5 +93,6 @@ export {
   SupportMap,
   login,
   login2,
-  gasImg
+  gasImg,
+  grid
 };

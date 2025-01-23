@@ -196,7 +196,7 @@ const Support = () => {
             <input
               type="submit"
               value={"Send message"}
-              className="btn-primary w-fit cursor-pointer smooth hover:bg-p"
+              className="btn-primary w-fit  cursor-pointer smooth hover:bg-p"
             />
           </form>
         </div>

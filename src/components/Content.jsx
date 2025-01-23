@@ -168,7 +168,7 @@ const Content = () => {
             </div>
           </div>
         </section>
-        <section className="w-full tw-container">
+        <section className="w-full tw-container ">
           <div className="d-flex w-full items-end justify-between gap-6 flex-wrap">
             <div className="ds:py-10 md:py-16 flex flex-wrap items-center justify-between gap-8">
               <div className="space-y-6">

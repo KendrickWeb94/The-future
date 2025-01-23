@@ -74,7 +74,7 @@ const Navbar = () => {
           </ul> */}
         </div>
         {menuVisible && (
-          <div className="mobile-menu  ds:block md:hidden absolute top-7 right-0">
+          <div className="mobile-menu  ds:block md:hidden  absolute top-7 right-0">
             <div className="bg-white shadow-2xl rounded-md w-[200px] h-auto py-2">
               <ul className="list-none">
                 <li className="w-full pb-2 border-gray-400/25"></li>
@@ -82,7 +82,7 @@ const Navbar = () => {
                   <Link to={"/Product-features"} href="/features">Product Features</Link>
                 </li>
                 <li className="w-full py-3 smooth hover:bg-primary hover:text-white font-inter px-3 text-xs cursor-pointer text-body_text border-gray-400/25">
-                  <Link to={"/product-Usage"} href="/Product-Usage">Product Usage</Link>
+                  <Link to={"/product-features"} href="/Product-Usage">Product Usage</Link>
                 </li>
                 <li className="w-full py-3 smooth hover:bg-primary hover:text-white font-inter px-3 text-xs cursor-pointer text-body_text border-gray-400/25">
                   <Link to={"/Customer-support"} href="/support">Customer Support</Link>
