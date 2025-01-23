@@ -1,33 +1,14 @@
 import React from "react";
-import { grid } from "../static/images";
 import { Link } from "react-router-dom";
 import Features from "./Features";
+
 import {
-  app,
-  apple,
-  blog1,
-  blog2,
-  blog3,
-  check,
-  features_lg,
   frame1,
   frame2,
   frame3,
   frame4,
   frame5,
-  google,
   gridnotifications,
-  logo,
-  logo1,
-  logo2,
-  logo3,
-  logo4,
-  logo5,
-  logo6,
-  logo7,
-  logo8,
-  logo9,
-  starfilled,
   transactions,
 } from "../static/images";
 
