@@ -6,6 +6,7 @@ import { Hero } from '../components/Hero'
 import BackToTop from '../components/topTop'
 import Loader from '../components/loader'
 import Metric from '../components/metric'
+import Features from "../components/Features";
 
 const welcome = () => {
   return ( 
@@ -25,6 +26,7 @@ const welcome = () => {
       {/* <welcomeBar /> */}
       <Navbar />
       <Hero />
+      <Features />
       <Metric />
       <Content />
       <BackToTop />
